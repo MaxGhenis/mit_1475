@@ -1,0 +1,38 @@
+
+\begin{table}[!htbp] \centering 
+  \caption{Economic Growth and Civil Conflict} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lcc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{2}{c}{Dependent Variable: Civil Conflict >=25 Deaths} \\ 
+\cline{2-3} 
+\\[-1.8ex] & \multicolumn{2}{c}{OLS} \\ 
+\\[-1.8ex] & \textit{OLS} & \textit{felm} \\ 
+\\[-1.8ex] & (1) & (2)\\ 
+\hline \\[-1.8ex] 
+ Economic growth rate, $t$ & $-$0.211 &  \\ 
+  & (0.161) &  \\ 
+  & & \\ 
+ Economic growth rate, $t-1$ & 0.067 &  \\ 
+  & (0.164) &  \\ 
+  & & \\ 
+ `gdp\_g(fit)` &  & $-$1.132 \\ 
+  &  & (1.403) \\ 
+  & & \\ 
+ `gdp\_g\_l(fit)` &  & $-$2.546$^{**}$ \\ 
+  &  & (1.102) \\ 
+  & & \\ 
+\hline \\[-1.8ex] 
+Country fixed effects & Yes & No \\ 
+Country-specific time trends & Yes & Yes \\ 
+\hline \\[-1.8ex] 
+Root mean square error & 0.24 & 0.2 \\ 
+Observations & 743 & 743 \\ 
+R$^{2}$ & 0.707 & 0.535 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{2}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+ & \multicolumn{2}{r}{Standard errors are clustered at the country level.} \\ 
+\end{tabular} 
+\end{table} 
